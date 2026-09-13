@@ -28,8 +28,6 @@ jobs:
         cp -r www temp_app/
         cp config.xml temp_app/
         cp package.json temp_app/
-        cd temp_app
-        cordova platform add android
 
     - name: Build APK
       run: |
